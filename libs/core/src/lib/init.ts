@@ -59,6 +59,10 @@ class LoclString extends String {
     this.postProcess = true;
     return this as any;
   }
+
+  valueOf(): string {
+    return this.toString();
+  }
 }
 
 /**

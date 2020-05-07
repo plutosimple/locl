@@ -1,0 +1,19 @@
+{
+  "name": "@locl/core",
+  "version": "1.0.0-rc.1",
+  "license": "AGPL-3.0-or-later",
+  "peerDependencies": {
+    "@angular/core": "^9.0.0",
+    "tslib": "^1.10.0"
+  },
+  "main": "bundles/locl-core.umd.js",
+  "module": "fesm5/locl-core.js",
+  "es2015": "fesm2015/locl-core.js",
+  "esm5": "esm5/locl-core.js",
+  "esm2015": "esm2015/locl-core.js",
+  "fesm5": "fesm5/locl-core.js",
+  "fesm2015": "fesm2015/locl-core.js",
+  "typings": "locl-core.d.ts",
+  "metadata": "locl-core.metadata.json",
+  "sideEffects": false
+}

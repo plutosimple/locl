@@ -36,6 +36,7 @@
     "postbootstrap": "cd node_modules/lerna-semantic-release && npm install && cd ../..",
     "lerna-semantic-release": "node ./node_modules/lerna-semantic-release/packages/lerna-semantic-release/bin/lerna-semantic-release.js",
     "prerelease": "npm run lerna-semantic-release pre",
+    "prepare": "npm run build.core",
     "release": "npm run lerna-semantic-release perform",
     "postrelease": "npm run lerna-semantic-release post",
     "build.electron.app": "npm run prepare.electron.app && ng build electron --prod --base-href ./",
